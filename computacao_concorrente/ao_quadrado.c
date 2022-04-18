@@ -1,5 +1,7 @@
 /* Disciplina: Computacao Concorrente */
 /* Prof.: Silvana Rossetto */
+/* Aluno: Pedro Henrique Figueiredo Von Zuben */
+/* DRE: 119055699 */
 /* Módulo 1 - Laboratório: 1 */
 /* Codigo: Função que eleva ao quadrado cada elemento de um vetor de 
 10.000 elementos (para cada elemento a_i do vetor, calcula (a_i)² 
