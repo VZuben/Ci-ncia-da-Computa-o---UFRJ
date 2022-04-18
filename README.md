@@ -1,1 +1,1 @@
-# Ci-ncia-da-Computa-o---UFRJ
+# Ciencia-da-Computcao---UFRJ
