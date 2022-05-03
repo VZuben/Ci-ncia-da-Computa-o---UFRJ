@@ -112,13 +112,6 @@ int main(int argc, char *argv[]) {
    printf("Maior conc: %.12lf\n", maiorConc);
    printf("Menor conc: %.12lf\n", menorConc);
 
-   //Olhando o vetor (tirar do programa depois)
-   /*puts("O vetor é:");
-   for(long int i = 0; i<dim; i++){
-      printf("%lf ", vetor[i]);
-   }
-   puts("\n");*/
-
    //libera as areas de memoria alocadas
    free(vetor);
    free(tid);
