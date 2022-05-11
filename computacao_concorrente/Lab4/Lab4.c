@@ -50,8 +50,7 @@ void *processaPrimosConc(void *arg) {
 
     //sincronização utilizando exclusao mutua com bloqueio
     pthread_mutex_lock(&bastao);
-    i_local = i_global;
-    i_global++;
+    i_local = i_global; i_global++;
     pthread_mutex_unlock(&bastao);
 
     while (i_local < dim) {
