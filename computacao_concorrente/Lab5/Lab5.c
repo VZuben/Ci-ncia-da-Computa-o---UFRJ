@@ -35,9 +35,7 @@ void *A () {
     primeiro_contador++;
     pthread_mutex_unlock(&primeiro_contador_mutex);
 
-    pthread_mutex_lock(&ultimo_contador_mutex);
     pthread_cond_broadcast(&meio_cond);
-    pthread_mutex_unlock(&ultimo_contador_mutex);
 
     pthread_exit(NULL);
 }
@@ -76,6 +74,7 @@ void *C () {
   }
   pthread_mutex_unlock(&ultimo_contador_mutex); 
   printf("Volte sempre!\n");
+ 
   pthread_exit(NULL);
 }
 
