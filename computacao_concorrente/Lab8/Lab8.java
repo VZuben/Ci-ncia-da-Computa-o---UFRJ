@@ -16,7 +16,7 @@ class Numero {
 	// Construtor
 	Numero(boolean corretudePy) {
 		this.numero = 0; 
-    this.corretudePy = corretudePy;
+    		this.corretudePy = corretudePy;
 	}
 	
 	// Retorna o valor atual do número inteiro
