@@ -15,32 +15,32 @@ class Numero {
 
 	// Construtor
 	Numero(boolean corretudePy) {
-		this.numero = 0; 
-    this.corretudePy = corretudePy;
+	  this.numero = 0; 
+    	  this.corretudePy = corretudePy;
 	}
 	
 	// Retorna o valor atual do número inteiro
 	public int get() {
-		return this.numero;
+	  return this.numero;
 	}
 	
 	// Atribui um valor ao número inteiro
 	public void set(int n) {
-		this.numero = n;
+	  this.numero = n;
 	}
 	
-  // Imprime o valor atual do número inteiro
-  public void imprimeNumero() {
-    if(!corretudePy) System.out.println("Numero atual = " + this.numero);              
-  }
+        // Imprime o valor atual do número inteiro
+        public void imprimeNumero() {
+          if(!corretudePy) System.out.println("Numero atual = " + this.numero);              
+        }
 
 	// Imprime se o valor atual do número inteiro é par ou ímpar
 	public void ehPar() {
-        if (this.numero % 2 == 0) {
-            if(!corretudePy) System.out.printf("Numero atual eh par\n");
-        } else {
-            if(!corretudePy) System.out.printf("Numero atual eh impar\n");
-        } 
+          if (this.numero % 2 == 0) {
+              if(!corretudePy) System.out.printf("Numero atual eh par\n");
+          } else {
+              if(!corretudePy) System.out.printf("Numero atual eh impar\n");
+          } 
 	}
 }
 
