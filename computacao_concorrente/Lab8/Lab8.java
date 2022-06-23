@@ -221,7 +221,7 @@ public class Lab8 {
 
       boolean corretudePy = false;                // Variável que controla se a impressão do log do programa vai ser .py ou não.
 
-      //se escrevermos "corretudePy" como argumento na hora de compilar, a impressão do log do programa vai ser .py 
+      //se escrevermos "corretudePy" como argumento na hora de executar, a impressão do log do programa vai ser .py 
       if(args.length > 0 && args[0].equals("corretudePy")) corretudePy = true;
       
       int i;
