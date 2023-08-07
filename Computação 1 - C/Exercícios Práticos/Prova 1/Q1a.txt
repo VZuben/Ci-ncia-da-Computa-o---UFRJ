@@ -1,0 +1,16 @@
+/*Pedro Henrique Figueiredo Von Zuben 119055699*/
+
+
+PROGRAMA Q1A.C
+
+INÍCIO
+
+    
+     - Criar uma matriz 10x10 com número aleatórios de 1 ou zero;
+     - Leia da entrada padra a posicao linha e coluna
+     - Verifique se tem mina
+         - se mina você perde, senão informe a quantidade de minas ao redor; 
+ 
+     - Se achou todas minas imprima "Venceu!";
+     
+FIM

@@ -1,0 +1,5 @@
+void imprima (celula *le) {
+   celula *p;
+   for (p = le->prox; p != NULL; p = p->prox)
+      printf ("%d\n", p->conteudo);
+}

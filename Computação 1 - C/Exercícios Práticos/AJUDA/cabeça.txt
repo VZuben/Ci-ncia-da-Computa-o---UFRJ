@@ -1,0 +1,3 @@
+   celula *le;
+   le = malloc (sizeof (celula));
+   le->prox = NULL;

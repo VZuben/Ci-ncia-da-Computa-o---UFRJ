@@ -1,0 +1,20 @@
+Entrada: Coeficientes a, b e c da equação ax²+bx+c=0
+Saída: Raízes X1 e X2 da equação ax²+bx+c=0
+------------------------------------------------------
+Inicio
+	ler a
+	ler b
+	ler c
+	d = b²-4ac
+	Se d > 0 então
+		X1 = (-b + raiz quadrada(d))/2a
+		X2 = (-b - raiz quadrada(d))/2a
+		Imprimir "As raízes X1 e X2 da equação, são respectivamentes: ", X1, X2
+	Se d = 0 então
+		X1 = X2 = -b/2a
+		Imprimir "A raíz X1 é igual a X2, e elas são iguais a: ", X1
+	Se d < 0 então
+		Imprimir "As raízes X1 e X2 não existem."
+	Fim se
+Fim
+ 

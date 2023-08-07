@@ -1,0 +1,11 @@
+Entrada: Coeficientes a, b e c
+Saída: Calcula o juros J pelo atraso de um pagamento
+-----------------------------------------------------
+
+Início
+	ler a
+	ler b
+	ler c	
+	j = a*b*c
+	Imprimir "O valor de juros total pelo atraso é igual a ", j
+Fim

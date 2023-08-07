@@ -1,0 +1,12 @@
+Entrada: Coeficientes a
+Saída: Checar se o espectador tem a ídade mínima para meia-entrada por ser idoso
+---------------------------------------------------------------------------------
+
+Início
+	ler a
+	Se a>60 então
+		 Imprimir "O espectador tem permissão para meia-entrada de idosos."
+	Senão
+		 imprimir "O espectador não tem permissão para meia-entrada de idosos."
+	Fim se
+Fim

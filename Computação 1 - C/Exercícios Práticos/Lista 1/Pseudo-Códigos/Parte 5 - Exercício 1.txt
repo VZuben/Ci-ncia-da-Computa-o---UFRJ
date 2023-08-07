@@ -1,0 +1,14 @@
+Entrada: Nada
+Saída: Média entre 7, 8 e 9. Média entre 4, 5 e 6. Soma e média entre as duas médias anteriores
+------------------------------------------------------------------------------------------------
+
+Início
+	x = (7+8+9)/3
+	y = (4+5+6)/3
+	v = x+y
+	z = (v)/2
+	Imprimir "A média entre 7, 8 e 9 é igual a ", x
+	Imprimir "\n A média entre 4, 5 e 6 é igual a ", y
+	Imprimir "\n A soma entre as médias anteriores é igual a ", v
+	Imprimir "\n A média entre as médias anteriores é igual a ", z
+Fim

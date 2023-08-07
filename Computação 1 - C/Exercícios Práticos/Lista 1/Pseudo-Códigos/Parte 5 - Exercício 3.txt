@@ -1,0 +1,13 @@
+Entrada: Coeficientes a
+Saída: Calcula a raiz do coeficiente a
+---------------------------------------
+
+Início
+	ler a
+	Se a>=0 então
+		x = raiz quadrada(a)
+		Imprimir "A raiz do número dado é igual a: ", x
+	Senão
+		Imprimir "A raiz não existe"
+	Fim se
+Fim

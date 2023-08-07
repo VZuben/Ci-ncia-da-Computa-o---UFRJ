@@ -1,0 +1,17 @@
+Entrada: Coeficientes a, b e c
+Saída: Informa qual é o maior número
+------------------------------------
+
+Início
+	Imprimir "Todos os números precisam ser diferentes."
+	ler a
+	ler b
+	ler c
+	Se a>b e a>c então
+		Imprimir "O primeiro número é o maior\n"
+	Se b>a e b>c então
+		Imprimir "O segundo número é o maior\n"
+	Se c>a e c>b então
+		Imprimir "O terceiro número é o maior\n"
+	Fim se
+Fim

@@ -1,0 +1,10 @@
+Entrada: Coeficientes a e b
+Saída: Média X entre os coeficientes
+------------------------------------
+
+Início
+	ler a
+	ler b	
+	x = (a+b)/2
+	imprimir "A média entre os números dados é igual a ", x
+Fim

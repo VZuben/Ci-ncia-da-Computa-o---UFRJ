@@ -1,0 +1,17 @@
+Entrada: Coeficientes a e b
+Saída: Informa se a e b são iguais ou diferentes, se são diferentes mostra o maior e o menor respectivamente
+------------------------------------------------------------------------------------------------------------
+
+Início
+	ler a
+	ler b
+	Se a=b então
+		Imprimir "Os números são iguais\n"
+	Se a>b entãp
+		Imprimir "Os números são diferentes\n"
+		Imprimir a, b
+	Se b>a então
+		Imprimir "Os números são diferentes\n"
+		Imprimir b, a
+	Fim se
+Fim
